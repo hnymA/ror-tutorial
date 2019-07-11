@@ -1,24 +1,16 @@
-# README
+# Ruby on Rails Sample App
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+## LICENSE
+- MIT
+- Beerware
 
-Things you may want to cover:
+For Details: [Ruby on Rails Tutorial](https://www.railstutorial.org/)
 
-* Ruby version
+## How To Use
 
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+```
+$ bundle install --without production
+$ rails db:migrate
+$ rails test
+$ rails server
+```
